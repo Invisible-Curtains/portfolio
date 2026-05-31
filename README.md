@@ -20,5 +20,4 @@ Personal portfolio website for Parikshit Bashyal, a freelance web developer base
 
 ## Built With
 - HTML5
-- CSS3
 - GitHub Pages
