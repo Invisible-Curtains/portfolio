@@ -1,8 +1,3 @@
-/* ============================================
-   Parikshit Bashyal — Portfolio
-   js/main.js
-   ============================================ */
-
 /* ── CUSTOM CURSOR ─────────────────────────────── */
 const curDot  = document.getElementById('cur-dot');
 const curRing = document.getElementById('cur-ring');
@@ -90,8 +85,8 @@ const revealObserver = new IntersectionObserver(function(entries) {
     }
   });
 }, {
-  threshold: 0.08,
-  rootMargin: '0px 0px -50px 0px'
+  threshold: 0,
+  rootMargin: '0px 0px 0px 0px'
 });
 
 revealElements.forEach(function(el) {
